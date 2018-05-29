@@ -2,7 +2,7 @@
 //crear variables para edad 
 // If y Else para los resultados segun edad 
 
-alert("Hola, para saber las distinas etapas de la vida según edad por aceptar");
+alert("Para saber las distinas etapas de la vida según edad pon aceptar");
 
 /*let groupAge = [
     "toddler",
@@ -15,17 +15,17 @@ alert("Hola, para saber las distinas etapas de la vida según edad por aceptar")
 
 let age = prompt("¿cuantos años tienes?");
 
-    if (1===age<=2) {
+    if (age >= 1 && age <=2) {
     alert("tu edad pertenece a toddler");
-    } else if (4<=age<=3){
+    } else if (age >= 3 && age <= 4){
     alert("tu edad pertenece a preschooler");
-    } else if (5<=age<=6) {
+    } else if (age >= 5 && age <= 11) {
     alert( "tu edad pertenece a gradeschooler");
-    } else if (17<=age<=18) {
-    alert("tu edad pertenece a teenager");   z
-    } else if (18<=age<=20) {
+    } else if (age >= 12 && age <= 17) {
+    alert("tu edad pertenece a teenager");   
+    } else if (age >= 18 && age <= 20) {
     alert("tu edad pertenece a young adult");    
-    } else if (age>=21) {
+    } else if (age >= 21) {
     alert("tu edad pertenece a adult");    
     } else {
     alert("tu edad pertenece a error");  
