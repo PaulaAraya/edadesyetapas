@@ -28,6 +28,6 @@ let age = prompt("¿cuantos años tienes?");
     } else if (age >= 21) {
     alert("tu edad pertenece a adult");    
     } else {
-    alert("tu edad pertenece a error");  
+    alert("error en digitar edad numerica, intentalo otra vez");  
     }
     
